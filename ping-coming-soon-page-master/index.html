@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Ping coming soon page</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap">
+</head>
+<body>
+  <header class="header">
+    <img src="./images/logo.svg" alt="PING.logo" class="header__logo">
+    <h1 class="header__title">
+      <span class="light-font">We are launching </span> soon!
+    </h1>
+    <p class="header__description">
+      Subscribe and get notified
+    </p>
+  </header>
+  <main class="main-content">
+    <form class="form" novalidate = "true">
+      <input type="text" 
+      class="form__input"
+      placeholder="Your email address..."
+      pattern="^([A-Za-z\d.-]+)@([a-z\d]+)(\.[a-z]{2,24}){1,8}$"
+      required
+      >
+      <button class="form__button">Notify Me</button>
+    </form>
+    <img src="/images/illustration-dashboard.png" alt="Illustrated dashboard" class="main-content__image">
+  </main>
+  <footer class="footer">
+      <div class="socials">
+        
+        <a class="socials__icon-container" href="https://www.facebook.com/" target="_blank" >
+          <span class="socials__icon fab fa-facebook-f">
+            <img src="images/facebook.svg" class="icon-facebook">
+          </span>
+        </a>
+        
+        <a class="socials__icon-container" href="https://twitter.com/" target="_blank">
+          <span class="socials__icon fab fa-twitter">
+            <img src="images/twitter.svg" class="icon-twitter">
+          </span>
+        </a>
+
+        <a class="socials__icon-container" href="https://www.instagram.com/" target="_blank">
+          <span class="socials__icon fab fa-instagram">
+            <img src="images/instagram.svg" class="icon-instagram">
+          </span>
+        </a>
+
+      </div>
+      <p class="copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+  </footer>
+ <script src="/javascript/main.js"></script>
+</body>
+</html>
